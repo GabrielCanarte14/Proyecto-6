@@ -1,1 +1,11 @@
-<p>portfolio works!</p>
+  <!-- Tabla con datos -->
+
+  <table>
+    <tbody>
+        <tr *ngFor="let datum of data">
+            <th> {{  datum[ "area" ]  }}  </th>
+            <td> {{  datum[ "country" ]  }}  </td>
+            <td> {{  datum[ "rank" ]  }} </td>
+        </tr>
+    </tbody>
+</table>
