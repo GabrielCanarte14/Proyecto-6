@@ -1,1 +1,13 @@
-<p>services works!</p>
+<section class="page-section" id="services">
+    <div class="container px-4 px-lg-5">
+        <table>
+            <tbody>
+                <tr *ngFor="let datum of data">
+                    <th> {{  datum[ "area" ]  }}  </th>
+                    <td> {{  datum[ "country" ]  }}  </td>
+                    <td> {{  datum[ "density" ]  }} </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
